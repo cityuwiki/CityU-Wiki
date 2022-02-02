@@ -1,0 +1,14 @@
+{
+  "name": "cityu-wiki",
+  "version": "0.0.1",
+  "description": "none",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "fyisfe",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.35"
+  }
+}
