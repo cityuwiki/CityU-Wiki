@@ -233,4 +233,12 @@ module.exports = {
     lastUpdatedText: '上次更新',
     contributorsText: '贡献者',
   },
+  plugins: [
+    [
+      '@vuepress/plugin-google-analytics',
+      {
+        id: 'G-K194THLEF0',
+      },
+    ],
+  ],
 };
