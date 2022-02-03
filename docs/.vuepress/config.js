@@ -220,7 +220,7 @@ module.exports = {
         children: ['/others/'],
       },
     ],
-    sidebarDepth: 3,
+    sidebarDepth: 2,
     repo: 'https://github.com/FyisFe/CityU-Wiki',
     notFound: [
       '看起来我们迷路了',
@@ -228,16 +228,23 @@ module.exports = {
       '这是一个 404 页面',
       '看起来我们进入了错误的链接',
     ],
-    backToHome: '返回首页',
-    editLinkText: '在 GitHub 上编辑此页',
-    lastUpdatedText: '上次更新',
-    contributorsText: '贡献者',
   },
   plugins: [
     [
       '@vuepress/plugin-google-analytics',
       {
         id: 'G-K194THLEF0',
+      },
+    ],
+    [
+      '@vuepress/plugin-search',
+      {
+        locales: {
+          '/': {
+            placeholder: 'Press "/" ',
+          },
+        },
+        hotKeys: ['/'],
       },
     ],
   ],
