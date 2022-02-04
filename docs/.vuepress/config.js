@@ -7,6 +7,7 @@ module.exports = {
   themeConfig: {
     logo: 'images/logo.svg',
     logoDark: 'images/logo-dark.svg',
+    docsDir: 'docs',
 
     navbar: [
       {
