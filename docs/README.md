@@ -2,7 +2,7 @@
 sidebar: false
 ---
 
-## CityU Wiki :books:
+# CityU Wiki :books:
 
 本手册的灵感来源于[上海交通大学飞跃手册](https://survivesjtu.github.io/SJTU-Application/#/)。希望持续收录 CityU 各院系同学的经验与感悟分享！
 
